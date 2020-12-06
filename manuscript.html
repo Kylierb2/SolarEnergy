@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://Kylierb2.github.io/SolarEnergy/" />
   <meta name="citation_pdf_url" content="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/" />
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,12 +65,11 @@
 <header id="title-block-header">
 <h1 class="title">Machine Learning: Solar Energy Output</h1>
 </header>
-<h1 class="page_break_before" id="abstract">Abstract</h1>
 <p><small><em>
 This manuscript
-(<a href="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/">permalink</a>)
+(<a href="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Kylierb2/SolarEnergy/tree/0ad499c4711e04e1f63fd2fe51187fbf452cbf36">Kylierb2/SolarEnergy@0ad499c</a>
+from <a href="https://github.com/Kylierb2/SolarEnergy/tree/aa59cf44575f60e097d1525484c2e0f3d8a36f36">Kylierb2/SolarEnergy@aa59cf4</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -92,6 +91,7 @@ Department of Civil &amp; Environmental Engineering; University of Illinois at U
 Department of Civil &amp; Environmental Engineering; University of Illinois at Urbana-Champaign
 </small></p></li>
 </ul>
+<h1 class="page_break_before" id="abstract">Abstract</h1>
 <h1 class="page_break_before" id="introduction">1. Introduction</h1>
 <p>Solar generation is an up and coming alternative energy resource. On the campus of the University of Illinois at Urbana-Champaign researchers have created solar farms to try and reduce the University’s carbon dioxide emissions. Solar farm 1.0 is the first UIUC solar farm; it has been operational since December of 2015. It is 20.8 acres of land and produces around 7,200 megawatt-hours of electricity annually. Surprisingly, this is only about 2% of the total megawatt-hours the university requires annually. In order to produce more the university recently published its plans to start work on “Solar Farm 2.0”. Solar farm 2.0 will be around 54 acres and produce as much as 20 thousand megawatt-hours annually; approximately 6% of university demand annually. Solar generation is important to “balancing the grid” and the more one is able to predict this output the more efficient energy usage will be. Knowing when solar energy will “run out” is largely a part of being able to utilize the maximum amount of solar energy generation. The goal of this project is to use machine learning techniques learned in class and publicly available data in order to predict the daily energy output from the UIUC solar farms.</p>
 <h1 id="literature-review">2. Literature Review</h1>
@@ -129,6 +129,13 @@ Upon analysis of the correlation coefficients between each column in the dataset
 <p><strong>3.2.4 Key take-aways</strong></p>
 <p>The Illinois State Water Survey’s estimate of daily solar output in Champaign is a very good predictor of solar output, daily temperature indicators and dew point are also good indicators of solar output and can be predicted ahead of time. These features will be useful in model development. Day-ahead predictions of radiation and evaporation are not easily obtainable, realistically it would be difficult to use these to develop day-ahead prediction of solar output. Features that are commonly included in weather predictions (temperature and humidity) may be suitable predictors of solar output. Correlation between solar output and minimum humidity is positive and a linear regression fits the data with an R-squared of 0.62. Maximum daily temperature is positively correlated with solar output and when a linear regression model is developed, that model accounts for approximately 33% of variation in the data. The correlation between average daily temperature and solar output is weaker but still positive. The model created for this project will utilize five features: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). From the EDA these seem to be the most promising at achieving an accurate prediction model.</p>
 <h1 id="model-development">4. Model Development</h1>
+<p>In order to predict daily solar output, two different models will be used: neural network and random forest regression. In order to assess the accuracy of the model, a persistence model will be used for comparison. The means squared error, R-squared, and correlation will determine which model performs best.</p>
+<h2 id="neural-network">4.1 Neural Network</h2>
+<p>Add picture of code here</p>
+<p>This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.</p>
+<h2 id="random-forest-regression">Random Forest Regression</h2>
+<p>INSERT CODE HERE</p>
+<p>The second model that was developed is the random forest regression model. This model is interesting because unlike a neural network it takes the datasets and creates multiple decision trees in order to find the best-fit prediction. Random forest models are less likely to overfit because of this. For this project, the same features will be used in order to compare the two models more accurately. These features are as follows: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). An interesting hyperparameter that was used is the “bootstrap” function. Bootstrapping is a way of resampling. This model implemented bootstrap = True which will use subsets of the data to form decision trees. If bootstrap = false was utilized then the entire dataset would have been used to form trees. Interestingly, better results were obtained using “True” over “False” which is seldom the case in literature reviews.</p>
 <h1 id="results">5. Results</h1>
 <h2 id="conclusion">Conclusion</h2>
 <h1 id="this-is-a-test">This is a test</h1>
