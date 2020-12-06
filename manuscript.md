@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/0132906038d3b9a3beaeb92451181108f8805710/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0132906038d3b9a3beaeb92451181108f8805710/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0132906038d3b9a3beaeb92451181108f8805710/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -108,9 +108,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/0132906038d3b9a3beaeb92451181108f8805710/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/))
 was automatically generated
-from [Kylierb2/SolarEnergy@0132906](https://github.com/Kylierb2/SolarEnergy/tree/0132906038d3b9a3beaeb92451181108f8805710)
+from [Kylierb2/SolarEnergy@0ad499c](https://github.com/Kylierb2/SolarEnergy/tree/0ad499c4711e04e1f63fd2fe51187fbf452cbf36)
 on December 6, 2020.
 </em></small>
 
@@ -206,7 +206,10 @@ The results of the linear regressions of these plots were quite interesting. It 
 The Illinois State Water Survey's estimate of daily solar output in Champaign is a very good predictor of solar output, daily temperature indicators and dew point are also good indicators of solar output and can be predicted ahead of time. These features will be useful in model development. Day-ahead predictions of radiation and evaporation are not easily obtainable, realistically it would be difficult to use these to develop day-ahead prediction of solar output.  Features that are commonly included in weather predictions (temperature and humidity) may be suitable predictors of solar output.  Correlation between solar output and minimum humidity is positive and a linear regression fits the data with an R-squared of 0.62. Maximum daily temperature is positively correlated with solar output and when a linear regression model is developed, that model accounts for approximately 33% of variation in the data. The correlation between average daily temperature and solar output is weaker but still positive. The model created for this project will utilize five features: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). From the EDA these seem to be the most promising at achieving an accurate prediction model.
 
 
-## Model Development
+# 4. Model Development
+
+
+# 5. Results 
 
 
 ## Conclusion

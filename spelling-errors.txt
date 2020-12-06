@@ -2,7 +2,7 @@ ahastie
 Allisa
 AllisaG
 aways
-Burkett
+burkett
 Champaign
 CSV
 dataset
