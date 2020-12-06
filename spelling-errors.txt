@@ -3,8 +3,14 @@ Allisa
 AllisaG
 Burkett
 Champaign
+datasets
 Hastie
 Kylie
 Kylierb
+resample
+Sharma
+Shenoy
+toa
 UIUC
 Urbana
+Voyant
