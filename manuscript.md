@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/6a318c9e92ea4325aac636e79fbcd548a72628ce/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6a318c9e92ea4325aac636e79fbcd548a72628ce/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6a318c9e92ea4325aac636e79fbcd548a72628ce/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/6a318c9e92ea4325aac636e79fbcd548a72628ce/))
 was automatically generated
-from [Kylierb2/SolarEnergy@c561b47](https://github.com/Kylierb2/SolarEnergy/tree/c561b47226e080aff05b2da3333d945903052a05)
+from [Kylierb2/SolarEnergy@6a318c9](https://github.com/Kylierb2/SolarEnergy/tree/6a318c9e92ea4325aac636e79fbcd548a72628ce)
 on December 6, 2020.
 </em></small>
 
