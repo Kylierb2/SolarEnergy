@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/ce33194a873ff28a7f7222ec3b7714479ef4435b/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/7f52c7bfe8428f57234025c687ad48200b7feeb9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/ce33194a873ff28a7f7222ec3b7714479ef4435b/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7f52c7bfe8428f57234025c687ad48200b7feeb9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/ce33194a873ff28a7f7222ec3b7714479ef4435b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7f52c7bfe8428f57234025c687ad48200b7feeb9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/ce33194a873ff28a7f7222ec3b7714479ef4435b/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/7f52c7bfe8428f57234025c687ad48200b7feeb9/))
 was automatically generated
-from [Kylierb2/SolarEnergy@ce33194](https://github.com/Kylierb2/SolarEnergy/tree/ce33194a873ff28a7f7222ec3b7714479ef4435b)
+from [Kylierb2/SolarEnergy@7f52c7b](https://github.com/Kylierb2/SolarEnergy/tree/7f52c7bfe8428f57234025c687ad48200b7feeb9)
 on December 6, 2020.
 </em></small>
 
@@ -154,11 +154,11 @@ The next journal was a case study from a research group using national weather f
 This section will discuss the different types of data the group collected, cleaning said data, and the analyses performed on the datasets.
 ## 3.1 Raw Data Collection
 **3.1.1 Solar Data**
---> insert image here
+insert image here
 **3.1.2 Daily Weather Observations**
---> insert image here
+insert image here
 **3.1.3 Monthly Solar Radiation**
---> insert image here
+insert image here
 ## 3.2 Exploratory Analysis
 This exploratory data analysis will compile weather and solar data into a single cohesive data frame and examine the data themselves to better understand the characteristics of the features and labels and better understand their relationship with each other. Towards these goals, we will use a variety of statistical methods and graphical and tabular representations to identify trends and relationships.
 **3.2.1 Clean and compile weather data**
