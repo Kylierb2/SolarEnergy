@@ -1,26 +1,23 @@
 ---
-title: "Manuscript Title"
+title: "Machine Learning: Solar Energy Output"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: Kylierb2
+    name: Kylie Burkett
+    initials: KB
+    twitter: burkett_kylie
+    email: kylierb2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - Department of Civil & Environmental Engineering
+      - University of Illinois at Urbana-Champaign
+  - github: ahastie2
+    name: Allisa Hastie
+    initials: AH
+    email: ahastie2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Civil & Environmental Engineering
+      - University of Illinois at Urbana-Champaign
