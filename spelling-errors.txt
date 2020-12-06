@@ -4,8 +4,9 @@ Allisa
 AllisaG
 aways
 burkett
-champaign
+Champaign
 CSV
+dataseet
 dataset
 datasets
 dataset’s
@@ -27,6 +28,7 @@ RMSE
 Sharma
 Shenoy
 soalr
+timestep
 toa
 txt
 UIUC

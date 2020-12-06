@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/aa59cf44575f60e097d1525484c2e0f3d8a36f36/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/))
 was automatically generated
-from [Kylierb2/SolarEnergy@aa59cf4](https://github.com/Kylierb2/SolarEnergy/tree/aa59cf44575f60e097d1525484c2e0f3d8a36f36)
+from [Kylierb2/SolarEnergy@26c0580](https://github.com/Kylierb2/SolarEnergy/tree/26c058039e64be059ef405e35bb40abf344009fa)
 on December 6, 2020.
 </em></small>
 
@@ -143,10 +143,15 @@ Solar generation is an up and coming alternative energy resource. On the campus 
 
 
 # 2. Literature Review 
+
 In order to better understand the current research on predicting solar generation, a literature review was conducted. Our goal in performing this review is to gain a more comprehensive understanding of modern techniques in machine learning particularly as it pertains to our application. We chose to exmine two papers, the first is a review paper that covers this field of study in general, the second examines work done by a specific team to predict solar output from publically available weather forecasts.
+
 ## 2.1 Machine learning methods for solar radiation forecasting: A Review - Cyril Voyant Et Al.
+
 The journal paper explores other journals that have conducted research on predicting solar generation. This mass review found that most people who are doing research on solar generation are using artificial neural networks in order to predict outputs. This method is effective, however, the authors found that regression tree methods are actually performing with better results. Using his information the model for this project will use both neural networks and regression trees to see how they perform against each other. 
+
 ## 2.2 Predicting Solar Generation from Weather Forecasts Using Machine Learning - Sharma, N.; Sharma, P.; Irwin, D.; and Shenoy, P
+
 The next journal was a case study from a research group using national weather forecast data.  The biggest issue they found was uncontrollable variability in weather patterns. This is expected in this type of research because the weather is a natural phenomenon that one can only predict toa certain extent. This group exclusively used support vector machines to resample the datasets. Support vector machines take in a large amount of data and then resample them into different smaller datasets in order to easily compare and analyze them. The most interesting aspect of this research was the use of datasets although they did not correlate well with test data.  This is something that the group will keep in mind when making their own models.
 
 
@@ -158,7 +163,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-insert image here
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](content/images/raw_solar.png){#fig:solar_img}
 
 **3.1.2 Daily Weather Observations**
 
@@ -225,6 +230,10 @@ The second model that was developed is the random forest regression model. This 
 
 
 # 5. Results 
+
+![We can visually exmine the fit between our **neural network** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:neural_results}
+
+![We can visually exmine the fit between our **random forest** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:forest_results}
 
 
 ## Conclusion
