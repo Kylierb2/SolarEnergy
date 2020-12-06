@@ -53,6 +53,8 @@ header-includes: '<!--
 
   <meta name="citation_author_institution" content="University of Illinois at Urbana-Champaign" />
 
+  <meta name="twitter:creator" content="@AllisaG_Hastie" />
+
   <link rel="canonical" href="https://Kylierb2.github.io/SolarEnergy/" />
 
   <meta property="og:url" content="https://Kylierb2.github.io/SolarEnergy/" />
@@ -65,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -101,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/c561b47226e080aff05b2da3333d945903052a05/))
 was automatically generated
-from [Kylierb2/SolarEnergy@95b3a93](https://github.com/Kylierb2/SolarEnergy/tree/95b3a9394da60de82577b90399f913a6911ea142)
+from [Kylierb2/SolarEnergy@c561b47](https://github.com/Kylierb2/SolarEnergy/tree/c561b47226e080aff05b2da3333d945903052a05)
 on December 6, 2020.
 </em></small>
 
@@ -122,7 +124,9 @@ on December 6, 2020.
 
 + **Allisa Hastie**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [ahastie2](https://github.com/ahastie2)<br>
+    [ahastie2](https://github.com/ahastie2)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [AllisaG_Hastie](https://twitter.com/AllisaG_Hastie)<br>
   <small>
      Department of Civil & Environmental Engineering; University of Illinois at Urbana-Champaign
   </small>
