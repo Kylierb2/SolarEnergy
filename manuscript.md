@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/4a748b0eff25280ea7ad81d01ced8dcc9be8ae39/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/aeb599f9e6e41ada46493d87a9340633f154086e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/4a748b0eff25280ea7ad81d01ced8dcc9be8ae39/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aeb599f9e6e41ada46493d87a9340633f154086e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/4a748b0eff25280ea7ad81d01ced8dcc9be8ae39/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/aeb599f9e6e41ada46493d87a9340633f154086e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/4a748b0eff25280ea7ad81d01ced8dcc9be8ae39/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/aeb599f9e6e41ada46493d87a9340633f154086e/))
 was automatically generated
-from [Kylierb2/SolarEnergy@4a748b0](https://github.com/Kylierb2/SolarEnergy/tree/4a748b0eff25280ea7ad81d01ced8dcc9be8ae39)
+from [Kylierb2/SolarEnergy@aeb599f](https://github.com/Kylierb2/SolarEnergy/tree/aeb599f9e6e41ada46493d87a9340633f154086e)
 on December 6, 2020.
 </em></small>
 
@@ -138,7 +138,7 @@ on December 6, 2020.
 
 
 
-# Introduction {.page_break_before}
+# 1. Introduction {.page_break_before}
 Solar generation is an up and coming alternative energy resource. On the campus of the University of Illinois at Urbana-Champaign researchers have created solar farms to try and reduce the University’s carbon dioxide emissions. Solar farm 1.0 is the first UIUC solar farm; it has been operational since December of 2015. It is 20.8 acres of land and produces around 7,200 megawatt-hours of electricity annually. Surprisingly, this is only about 2% of the total megawatt-hours the university requires annually. In order to produce more the university recently published its plans to start work on “Solar Farm 2.0”. Solar farm 2.0 will be around 54 acres and produce as much as 20 thousand megawatt-hours annually; approximately 6% of university demand annually. Solar generation is important to “balancing the grid” and the more one is able to predict this output the more efficient energy usage will be. Knowing when solar energy will “run out” is largely a part of being able to utilize the maximum amount of solar energy generation. The goal of this project is to use machine learning techniques learned in class and publicly available data in order to predict the daily energy output from the UIUC solar farms.
 
 
