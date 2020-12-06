@@ -1,6 +1,6 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "Machine Learning: Solar Energy Output",
     "keywords": [
       "markdown",
       "publishing",
@@ -9,10 +9,10 @@
     "lang": "en-US",
     "date-meta": "2020-12-06",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Kylie Burkett",
+      "Allisa Hastie"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-12-06\" />\n<meta name=\"citation_publication_date\" content=\"2020-12-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta property=\"og:url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta property=\"twitter:url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Kylierb2.github.io/SolarEnergy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Kylierb2.github.io/SolarEnergy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Machine Learning: Solar Energy Output\" />\n<meta name=\"citation_title\" content=\"Machine Learning: Solar Energy Output\" />\n<meta property=\"og:title\" content=\"Machine Learning: Solar Energy Output\" />\n<meta property=\"twitter:title\" content=\"Machine Learning: Solar Energy Output\" />\n<meta name=\"dc.date\" content=\"2020-12-06\" />\n<meta name=\"citation_publication_date\" content=\"2020-12-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kylie Burkett\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil &amp; Environmental Engineering\" />\n<meta name=\"citation_author_institution\" content=\"University of Illinois at Urbana-Champaign\" />\n<meta name=\"twitter:creator\" content=\"@burkett_kylie\" />\n<meta name=\"citation_author\" content=\"Allisa Hastie\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil &amp; Environmental Engineering\" />\n<meta name=\"citation_author_institution\" content=\"University of Illinois at Urbana-Champaign\" />\n<link rel=\"canonical\" href=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta property=\"og:url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta property=\"twitter:url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Kylierb2.github.io/SolarEnergy/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Kylierb2.github.io/SolarEnergy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Kylierb2.github.io/SolarEnergy/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -25,31 +25,28 @@
     "date": "December 6, 2020",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "github": "Kylierb2",
+        "name": "Kylie Burkett",
+        "initials": "KB",
+        "twitter": "burkett_kylie",
+        "email": "kylierb2@illinois.edu",
         "affiliations": [
-          "Department of Something, University of Whatever"
-        ],
-        "funders": [
-          "Grant XXXXXXXX"
+          "Department of Civil & Environmental Engineering",
+          "University of Illinois at Urbana-Champaign"
         ],
         "affiliation_numbers": [
-          1
+          1,
+          2
         ]
       },
       {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
+        "github": "ahastie2",
+        "name": "Allisa Hastie",
+        "initials": "AH",
+        "email": "ahastie2@illinois.edu",
         "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
+          "Department of Civil & Environmental Engineering",
+          "University of Illinois at Urbana-Champaign"
         ],
         "affiliation_numbers": [
           1,
@@ -59,11 +56,11 @@
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Department of Civil & Environmental Engineering",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Whatever, University of Something",
+        "affiliation": "University of Illinois at Urbana-Champaign",
         "affiliation_number": 2
       }
     ],
@@ -72,15 +69,15 @@
       "repo_slug": "Kylierb2/SolarEnergy",
       "repo_owner": "Kylierb2",
       "repo_name": "SolarEnergy",
-      "commit": "dc45160698163de7e8f3b8f27a4138d72dc2497b",
-      "triggering_commit": "dc45160698163de7e8f3b8f27a4138d72dc2497b",
-      "build_url": "https://github.com/Kylierb2/SolarEnergy/commit/dc45160698163de7e8f3b8f27a4138d72dc2497b/checks",
+      "commit": "95b3a9394da60de82577b90399f913a6911ea142",
+      "triggering_commit": "95b3a9394da60de82577b90399f913a6911ea142",
+      "build_url": "https://github.com/Kylierb2/SolarEnergy/commit/95b3a9394da60de82577b90399f913a6911ea142/checks",
       "job_url": "https://github.com/Kylierb2/SolarEnergy/runs/run3"
     },
     "html_url": "https://Kylierb2.github.io/SolarEnergy/",
     "pdf_url": "https://Kylierb2.github.io/SolarEnergy/manuscript.pdf",
-    "html_url_versioned": "https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/",
-    "pdf_url_versioned": "https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/manuscript.pdf",
+    "html_url_versioned": "https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/",
+    "pdf_url_versioned": "https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {

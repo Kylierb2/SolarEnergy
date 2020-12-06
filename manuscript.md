@@ -1,7 +1,7 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Kylie Burkett
+- Allisa Hastie
 bibliography:
 - content/manual-references.json
 date-meta: '2020-12-06'
@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Machine Learning: Solar Energy Output" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Machine Learning: Solar Energy Output" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Machine Learning: Solar Energy Output" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Machine Learning: Solar Energy Output" />
 
   <meta name="dc.date" content="2020-12-06" />
 
@@ -39,21 +39,19 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Kylie Burkett" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Civil &amp; Environmental Engineering" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="University of Illinois at Urbana-Champaign" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@burkett_kylie" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Allisa Hastie" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Civil &amp; Environmental Engineering" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="University of Illinois at Urbana-Champaign" />
 
   <link rel="canonical" href="https://Kylierb2.github.io/SolarEnergy/" />
 
@@ -67,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,7 +91,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: 'Machine Learning: Solar Energy Output'
 ...
 
 
@@ -103,9 +101,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/dc45160698163de7e8f3b8f27a4138d72dc2497b/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/95b3a9394da60de82577b90399f913a6911ea142/))
 was automatically generated
-from [Kylierb2/SolarEnergy@dc45160](https://github.com/Kylierb2/SolarEnergy/tree/dc45160698163de7e8f3b8f27a4138d72dc2497b)
+from [Kylierb2/SolarEnergy@95b3a93](https://github.com/Kylierb2/SolarEnergy/tree/95b3a9394da60de82577b90399f913a6911ea142)
 on December 6, 2020.
 </em></small>
 
@@ -113,25 +111,20 @@ on December 6, 2020.
 
 
 
-+ **John Doe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
++ **Kylie Burkett**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [Kylierb2](https://github.com/Kylierb2)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [burkett_kylie](https://twitter.com/burkett_kylie)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of Civil & Environmental Engineering; University of Illinois at Urbana-Champaign
   </small>
 
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
++ **Allisa Hastie**<br>
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [ahastie2](https://github.com/ahastie2)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Civil & Environmental Engineering; University of Illinois at Urbana-Champaign
   </small>
 
 
