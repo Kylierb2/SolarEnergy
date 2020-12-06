@@ -6,7 +6,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-insert image here
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](content/images/raw_solar.png){#fig:solar_img}
 
 **3.1.2 Daily Weather Observations**
 
