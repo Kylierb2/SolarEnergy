@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Kylierb2/SolarEnergy/tree/gh-pages) branch hosts the contents of this directory at <https://Kylierb2.github.io/SolarEnergy/>.
-The permalink for this webpage version is <https://Kylierb2.github.io/SolarEnergy/v/0132906038d3b9a3beaeb92451181108f8805710/>.
+The permalink for this webpage version is <https://Kylierb2.github.io/SolarEnergy/v/0ad499c4711e04e1f63fd2fe51187fbf452cbf36/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://Kylierb2.github.io/SolarEnergy/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0132906038d3b9a3beaeb92451181108f8805710`](https://github.com/Kylierb2/SolarEnergy/commit/0132906038d3b9a3beaeb92451181108f8805710).
+[`0ad499c4711e04e1f63fd2fe51187fbf452cbf36`](https://github.com/Kylierb2/SolarEnergy/commit/0ad499c4711e04e1f63fd2fe51187fbf452cbf36).
