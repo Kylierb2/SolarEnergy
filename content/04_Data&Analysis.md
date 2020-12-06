@@ -2,11 +2,11 @@
 This section will discuss the different types of data the group collected, cleaning said data, and the analyses performed on the datasets.
 ## 3.1 Raw Data Collection
 **3.1.1 Solar Data**
---> insert image here
+insert image here
 **3.1.2 Daily Weather Observations**
---> insert image here
+insert image here
 **3.1.3 Monthly Solar Radiation**
---> insert image here
+insert image here
 ## 3.2 Exploratory Analysis
 This exploratory data analysis will compile weather and solar data into a single cohesive data frame and examine the data themselves to better understand the characteristics of the features and labels and better understand their relationship with each other. Towards these goals, we will use a variety of statistical methods and graphical and tabular representations to identify trends and relationships.
 **3.2.1 Clean and compile weather data**
