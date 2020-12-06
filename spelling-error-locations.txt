@@ -1,0 +1,4 @@
+content/02_introduction.md:2:Champaign
+content/02_introduction.md:2:UIUC
+content/02_introduction.md:2:UIUC
+content/02_introduction.md:2:Urbana
