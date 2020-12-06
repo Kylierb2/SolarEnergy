@@ -3,7 +3,7 @@ Allisa
 AllisaG
 aways
 Burkett
-Champaign
+champaign
 CSV
 dataset
 datasets
@@ -12,7 +12,7 @@ EDA
 exmine
 Hastie
 kaggle
-kylie
+Kylie
 Kylierb
 precip
 publically

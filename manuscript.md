@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/9a7ca4a04311ed23da271f0fa59fc223abf23495/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/e5d808e21b04171598cc3138cfe29f94905198a1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/9a7ca4a04311ed23da271f0fa59fc223abf23495/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/e5d808e21b04171598cc3138cfe29f94905198a1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/9a7ca4a04311ed23da271f0fa59fc223abf23495/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/e5d808e21b04171598cc3138cfe29f94905198a1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,6 +96,11 @@ manubot-requests-cache-path: ci/cache/requests-cache
 title: 'Machine Learning: Solar Energy Output'
 ...
 
+# Abstract {.page_break_before}
+
+
+
+
 
 
 
@@ -103,9 +108,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/9a7ca4a04311ed23da271f0fa59fc223abf23495/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/e5d808e21b04171598cc3138cfe29f94905198a1/))
 was automatically generated
-from [Kylierb2/SolarEnergy@9a7ca4a](https://github.com/Kylierb2/SolarEnergy/tree/9a7ca4a04311ed23da271f0fa59fc223abf23495)
+from [Kylierb2/SolarEnergy@e5d808e](https://github.com/Kylierb2/SolarEnergy/tree/e5d808e21b04171598cc3138cfe29f94905198a1)
 on December 6, 2020.
 </em></small>
 
@@ -130,11 +135,6 @@ on December 6, 2020.
   <small>
      Department of Civil & Environmental Engineering; University of Illinois at Urbana-Champaign
   </small>
-
-
-
-# 1. Abstract {.page_break_before}
-
 
 
 
