@@ -5,9 +5,10 @@ Burkett
 Champaign
 datasets
 Hastie
-Kylie
+kylie
 Kylierb
 resample
+RMSE
 Sharma
 Shenoy
 toa

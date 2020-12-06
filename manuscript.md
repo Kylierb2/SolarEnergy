@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/289c934b000b30b68e352fbcc274f76a5a15f738/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/db69ed1df65f4594fd730c24b8f44961631de292/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/289c934b000b30b68e352fbcc274f76a5a15f738/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/db69ed1df65f4594fd730c24b8f44961631de292/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/289c934b000b30b68e352fbcc274f76a5a15f738/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/db69ed1df65f4594fd730c24b8f44961631de292/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/289c934b000b30b68e352fbcc274f76a5a15f738/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/db69ed1df65f4594fd730c24b8f44961631de292/))
 was automatically generated
-from [Kylierb2/SolarEnergy@289c934](https://github.com/Kylierb2/SolarEnergy/tree/289c934b000b30b68e352fbcc274f76a5a15f738)
+from [Kylierb2/SolarEnergy@db69ed1](https://github.com/Kylierb2/SolarEnergy/tree/db69ed1df65f4594fd730c24b8f44961631de292)
 on December 6, 2020.
 </em></small>
 
@@ -161,6 +161,13 @@ The next journal was a case study from a research group using national weather f
 to see how the font looks
 
 How do paragraphs look?
+practice table
+
+| Model Type | RMSE | MAE | R-squared |
+| :---: | :---: | :---: | :---: |
+| Neural Network | 1486 | 1557 | 0.93 |
+| Random Forest | 824 | 634 | 0.97 |
+| Persistence Model | 184 | 135 | 0.99|
 
 
 ## References {.page_break_before}
