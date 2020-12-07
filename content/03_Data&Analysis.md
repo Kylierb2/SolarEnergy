@@ -6,15 +6,15 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](content/images/raw_solar.png){#fig:solar_img}
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_solar.png){#fig:solar_img}
 
 **3.1.2 Daily Weather Observations**
 
-insert image here
+![We utilized daily wether observations from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_weather.png){#fig:solar_img}
 
 **3.1.3 Monthly Solar Radiation**
 
-insert image here
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/radiation.png){#fig:solar_img}
 
 ## 3.2 Exploratory Analysis
 
@@ -41,7 +41,7 @@ Insert histograms here
 From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.
 
-insert time step graphs here
+![Seasonal patterns are clear in our key weather features.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/features_timeseries.png){#fig:solar_img}
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
