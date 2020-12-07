@@ -5,7 +5,7 @@ AllisaG
 aways
 betwene
 Burkett
-Champaign
+champaign
 CSV
 dataseet
 dataset
@@ -18,7 +18,7 @@ Hastie
 hyperparameter
 hyperparameters
 kaggle
-Kylie
+kylie
 Kylierb
 Monteith
 overfit
