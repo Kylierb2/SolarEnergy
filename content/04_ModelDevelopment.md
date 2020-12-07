@@ -34,7 +34,7 @@ history=model.fit(train_ds.shuffle(10), epochs=epochs)
 
 This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.
 
-## Random Forest Regression
+## 4.2 Random Forest Regression
 
 ```
 x = df_train[["rad_est", "avg_temp",  "dew", "min_temp", "max_temp"]]
