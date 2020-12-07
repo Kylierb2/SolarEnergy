@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/761e449384d3f5d0ad429e2b8373f472af2f8f14/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/efd51615c2517e73be6e40872232209e180a1c5e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/761e449384d3f5d0ad429e2b8373f472af2f8f14/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/efd51615c2517e73be6e40872232209e180a1c5e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/761e449384d3f5d0ad429e2b8373f472af2f8f14/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/efd51615c2517e73be6e40872232209e180a1c5e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/761e449384d3f5d0ad429e2b8373f472af2f8f14/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/efd51615c2517e73be6e40872232209e180a1c5e/))
 was automatically generated
-from [Kylierb2/SolarEnergy@761e449](https://github.com/Kylierb2/SolarEnergy/tree/761e449384d3f5d0ad429e2b8373f472af2f8f14)
+from [Kylierb2/SolarEnergy@efd5161](https://github.com/Kylierb2/SolarEnergy/tree/efd51615c2517e73be6e40872232209e180a1c5e)
 on December 7, 2020.
 </em></small>
 
@@ -137,8 +137,7 @@ on December 7, 2020.
 
 The world around us is ever-changing and in order to keep our planet clean and habitable researchers are always trying to find new ways of producing renewable energy. Renewable energy is a key part of reducing emissions and impacting the environment positively. Solar generation is a type of renewable energy that this project will explore. More specifically, how do we predict how much solar energy we have available? In order to do this our project will explore the different datasets available that pertain to solar energy. We will explore the effects these features have on solar energy and if we can predict them. To predict the energy output of solar panels we will use machine learning techniques such as artificial neural networks and random tree regression models. The solar farm we will be observing is on the campus of the University of Illinois at Urbana-Champaign. Utilizing the machine learning techniques we learned in class we find that random tree regression models perform the best when it comes to predicting solar energy outputs. Our models were compared using a persistence model along with correlation and R-squared models. Further research on the topic will lead to more accurate results and enhance the ability of energy plants to increase energy efficiency.
 
-
-![Figure: Solar Panels](images/solarpanels.jpg)
+![Figure: Solar Panel](images/solarpanel.png){width="6in"}
 
 
 # 1. Introduction {.page_break_before}

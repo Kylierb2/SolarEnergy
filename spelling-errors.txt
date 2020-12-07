@@ -4,7 +4,7 @@ Allisa
 AllisaG
 aways
 biase
-burkett
+Burkett
 Champaign
 CSV
 dataset
