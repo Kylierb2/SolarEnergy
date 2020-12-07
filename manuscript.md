@@ -4,7 +4,7 @@ author-meta:
 - Allisa Hastie
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-06'
+date-meta: '2020-12-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Machine Learning: Solar Energy Output" />
 
-  <meta name="dc.date" content="2020-12-06" />
+  <meta name="dc.date" content="2020-12-07" />
 
-  <meta name="citation_publication_date" content="2020-12-06" />
+  <meta name="citation_publication_date" content="2020-12-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,11 +96,6 @@ manubot-requests-cache-path: ci/cache/requests-cache
 title: 'Machine Learning: Solar Energy Output'
 ...
 
-# Abstract {.page_break_before}
-
-
-
-
 
 
 
@@ -108,10 +103,10 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/))
 was automatically generated
-from [Kylierb2/SolarEnergy@35a8387](https://github.com/Kylierb2/SolarEnergy/tree/35a8387f53852edcc4762993341aa4c294857d13)
-on December 6, 2020.
+from [Kylierb2/SolarEnergy@902995d](https://github.com/Kylierb2/SolarEnergy/tree/902995de500ebe1e7fd04a581d0ba3740f46a0d7)
+on December 7, 2020.
 </em></small>
 
 ## Authors
@@ -138,15 +133,25 @@ on December 6, 2020.
 
 
 
+# Abstract {.page_break_before}
+
+
+
+
 # 1. Introduction {.page_break_before}
 Solar generation is an up and coming alternative energy resource. On the campus of the University of Illinois at Urbana-Champaign researchers have created solar farms to try and reduce the University’s carbon dioxide emissions. Solar farm 1.0 is the first UIUC solar farm; it has been operational since December of 2015. It is 20.8 acres of land and produces around 7,200 megawatt-hours of electricity annually. Surprisingly, this is only about 2% of the total megawatt-hours the university requires annually. In order to produce more the university recently published its plans to start work on “Solar Farm 2.0”. Solar farm 2.0 will be around 54 acres and produce as much as 20 thousand megawatt-hours annually; approximately 6% of university demand annually. Solar generation is important to “balancing the grid” and the more one is able to predict this output the more efficient energy usage will be. Knowing when solar energy will “run out” is largely a part of being able to utilize the maximum amount of solar energy generation. The goal of this project is to use machine learning techniques learned in class and publicly available data in order to predict the daily energy output from the UIUC solar farms.
 
 
 # 2. Literature Review 
+
 In order to better understand the current research on predicting solar generation, a literature review was conducted. Our goal in performing this review is to gain a more comprehensive understanding of modern techniques in machine learning particularly as it pertains to our application. We chose to exmine two papers, the first is a review paper that covers this field of study in general, the second examines work done by a specific team to predict solar output from publically available weather forecasts.
+
 ## 2.1 Machine learning methods for solar radiation forecasting: A Review - Cyril Voyant Et Al.
+
 The journal paper explores other journals that have conducted research on predicting solar generation. This mass review found that most people who are doing research on solar generation are using artificial neural networks in order to predict outputs. This method is effective, however, the authors found that regression tree methods are actually performing with better results. Using his information the model for this project will use both neural networks and regression trees to see how they perform against each other. 
+
 ## 2.2 Predicting Solar Generation from Weather Forecasts Using Machine Learning - Sharma, N.; Sharma, P.; Irwin, D.; and Shenoy, P
+
 The next journal was a case study from a research group using national weather forecast data.  The biggest issue they found was uncontrollable variability in weather patterns. This is expected in this type of research because the weather is a natural phenomenon that one can only predict toa certain extent. This group exclusively used support vector machines to resample the datasets. Support vector machines take in a large amount of data and then resample them into different smaller datasets in order to easily compare and analyze them. The most interesting aspect of this research was the use of datasets although they did not correlate well with test data.  This is something that the group will keep in mind when making their own models.
 
 
@@ -158,15 +163,15 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-insert image here
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_solar.png){#fig:solar_img}
 
 **3.1.2 Daily Weather Observations**
 
-insert image here
+![We utilized daily wether observations from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_weather.png){#fig:solar_img}
 
 **3.1.3 Monthly Solar Radiation**
 
-insert image here
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/radiation.png){#fig:solar_img}
 
 ## 3.2 Exploratory Analysis
 
@@ -193,7 +198,7 @@ Insert histograms here
 From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.
 
-insert time step graphs here
+![Seasonal patterns are clear in our key weather features.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/features_timeseries.png){#fig:solar_img}
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
@@ -208,22 +213,36 @@ The Illinois State Water Survey's estimate of daily solar output in Champaign is
 
 # 4. Model Development
 
+In order to predict daily solar output, two different models will be used: neural network and random forest regression. In order to assess the accuracy of the model, a persistence model will be used for comparison. The means squared error, R-squared, and correlation will determine which model performs best.
+
+
+## 4.1 Neural Network
+
+Add picture of code here
+
+This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.
+
+## Random Forest Regression
+
+INSERT CODE HERE
+
+The second model that was developed is the random forest regression model. This model is interesting because unlike a neural network it takes the datasets and creates multiple decision trees in order to find the best-fit prediction. Random forest models are less likely to overfit because of this. For this project, the same features will be used in order to compare the two models more accurately. These features are as follows: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). An interesting hyperparameter that was used is the “bootstrap” function. Bootstrapping is a way of resampling. This model implemented bootstrap = True which will use subsets of the data to form decision trees. If bootstrap = false was utilized then the entire dataset would have been used to form trees. Interestingly, better results were obtained using “True” over “False” which is seldom the case in literature reviews.
+
 
 # 5. Results 
 
+![We can visually exmine the fit between our **neural network** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:neural_results}
 
-## Conclusion
-# This is a test
-to see how the font looks
+![We can visually exmine the fit between our **random forest** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:forest_results}
 
-How do paragraphs look?
-practice table
 
-| Model Type | RMSE | MAE | R-squared |
-| :---: | :---: | :---: | :---: |
-| Neural Network | 1486 | 1557 | 0.93 |
-| Random Forest | 824 | 634 | 0.97 |
-| Persistence Model | 184 | 135 | 0.99|
+# 6. Conclusion
+
+The ability to predict solar output will be very important in the future due to the growing use of alternative energy sources. This project aimed to find an accurate and reliable way to predict this output. The results proved that using a random forest regression model may be the best choice. While many groups seem to be utilizing neural networks it may be time for them to switch over to random tree regressions. The findings from this project were that random forest regression out performs neural networks in the realm of solar energy output predictions. Due to the complexity of random forest and the ability to avoid overfitting, this model seems to be promising.
+
+Although the model was fairly accurate there are still some changes we would make for future research. First off, hourly weather prediction datasets would allow us to predict hourly solar radiation outputs. This would lead us to be able to balance the grid more accurately and result in optimal energy use. Current operators have to determine when to shut off solar energy and switch back to conventional energy sources. If they have a more accurate prediction of when solar generation will “run out” then one could optimize the energy used. Next, in order to improve our model we would like to use a cloud cover database and solar radiation estimates. The cloud database would improve our models because you can get a better idea of how much total radiation is actually being caught on the solar panels. If there is too much cloud coverage then one will observe less radiation and more radiation if there is less cloud coverage. Having actual numbers for solar radiation estimates would be effective in improving the model, however this task is very time consuming and difficult to produce. One would need to utilize large equations such as the Penman Monteith equation. Lastly, we would want to spend more time tuning the hyperparameters for the random tree regression model. This would involve setting up the code to view ranges of hyperparameters instead of just one singular variable. The goal of tuning hyperparameters is that we could get the parameter as close to the optimal one as possible, resulting in a more accurate model.
+
+With the ever growing need for alternative energy sources, the ability to predict renewable energy output such as solar will be vital to the future of energy efficiency and production. This project aimed to utilize public data and machine learning techniques to predict the solar output of the UIUC solar farm. With high r-squared values and high correlation to actual values our model has great potential. With future research and fine tuning we expect our model to be more accurate and successful at predicting solar energy outputs.
 
 
 ## References {.page_break_before}
