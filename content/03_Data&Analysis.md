@@ -6,7 +6,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png)
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png){width="5.5in"}
 
 **3.1.2 Daily Weather Observations**
 
@@ -14,7 +14,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.3 Monthly Solar Radiation**
 
-![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png)
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png){width="2in"}
 
 ## 3.2 Exploratory Analysis
 
