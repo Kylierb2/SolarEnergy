@@ -4,7 +4,7 @@ Allisa
 AllisaG
 aways
 betwene
-burkett
+Burkett
 Champaign
 CSV
 dataseet
@@ -18,7 +18,7 @@ Hastie
 hyperparameter
 hyperparameters
 kaggle
-kylie
+Kylie
 Kylierb
 Monteith
 overfit
@@ -38,4 +38,3 @@ txt
 UIUC
 Urbana
 Voyant
-wether
