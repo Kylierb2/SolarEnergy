@@ -45,7 +45,7 @@ Upon analysis of the correlation coefficients between each column in the dataset
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
-![The relationships between our chosen dependent variables and solar generation are roughly linear.](image/corr_imgs.png)
+![The relationships between our chosen dependent variables and solar generation are roughly linear.](images/corr_imgs.png)
 
 The results of the linear regressions of these plots were quite interesting. It was observed that the average daily solar radiation in Champaign explains about 93% of the variation in solar output, maximum daily temperature explains 54%, minimum daily temperature explains 53%, average daily temperature explains 56%, and dew temperature explains 45%. Although these values are all around 50% the goal is to use all of them and increase the predictive value as a whole.
 
