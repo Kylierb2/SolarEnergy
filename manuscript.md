@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/5520ff1e729a3cf71a76b891f95c49045edd3e49/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/5520ff1e729a3cf71a76b891f95c49045edd3e49/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/5520ff1e729a3cf71a76b891f95c49045edd3e49/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/5520ff1e729a3cf71a76b891f95c49045edd3e49/))
 was automatically generated
-from [Kylierb2/SolarEnergy@70d4c6d](https://github.com/Kylierb2/SolarEnergy/tree/70d4c6df828046cda50a1482cca1f3e8e012b199)
+from [Kylierb2/SolarEnergy@5520ff1](https://github.com/Kylierb2/SolarEnergy/tree/5520ff1e729a3cf71a76b891f95c49045edd3e49)
 on December 7, 2020.
 </em></small>
 
@@ -163,7 +163,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png)
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png){width="5.5in"}
 
 **3.1.2 Daily Weather Observations**
 
@@ -171,7 +171,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.3 Monthly Solar Radiation**
 
-![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png)
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png){width="2in"}
 
 ## 3.2 Exploratory Analysis
 
