@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/))
 was automatically generated
-from [Kylierb2/SolarEnergy@6ad971f](https://github.com/Kylierb2/SolarEnergy/tree/6ad971f0c810d5b0d5d7784de90c577a90b60d52)
+from [Kylierb2/SolarEnergy@30a7775](https://github.com/Kylierb2/SolarEnergy/tree/30a7775c104f1631e602ccb3a879cf0ff90f0097)
 on December 7, 2020.
 </em></small>
 
@@ -247,7 +247,7 @@ history=model.fit(train_ds.shuffle(10), epochs=epochs)
 
 This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.
 
-## Random Forest Regression
+## 4.2 Random Forest Regression
 
 ```
 x = df_train[["rad_est", "avg_temp",  "dew", "min_temp", "max_temp"]]

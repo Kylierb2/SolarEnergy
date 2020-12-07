@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://Kylierb2.github.io/SolarEnergy/" />
   <meta name="citation_pdf_url" content="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/" />
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Kylierb2.github.io/SolarEnergy/v/6ad971f0c810d5b0d5d7784de90c577a90b60d52/">permalink</a>)
+(<a href="https://Kylierb2.github.io/SolarEnergy/v/30a7775c104f1631e602ccb3a879cf0ff90f0097/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Kylierb2/SolarEnergy/tree/6ad971f0c810d5b0d5d7784de90c577a90b60d52">Kylierb2/SolarEnergy@6ad971f</a>
+from <a href="https://github.com/Kylierb2/SolarEnergy/tree/30a7775c104f1631e602ccb3a879cf0ff90f0097">Kylierb2/SolarEnergy@30a7775</a>
 on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -172,7 +172,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01, decay=0.01/
 
 history=model.fit(train_ds.shuffle(10), epochs=epochs) </code></pre>
 <p>This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.</p>
-<h2 id="random-forest-regression">Random Forest Regression</h2>
+<h2 id="random-forest-regression">4.2 Random Forest Regression</h2>
 <pre><code>x = df_train[[&quot;rad_est&quot;, &quot;avg_temp&quot;,  &quot;dew&quot;, &quot;min_temp&quot;, &quot;max_temp&quot;]]
 y = np.ravel(df_train[&quot;Site Performance Estimate&quot;])
 
