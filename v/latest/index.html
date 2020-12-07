@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://Kylierb2.github.io/SolarEnergy/" />
   <meta name="citation_pdf_url" content="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/">permalink</a>)
+(<a href="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Kylierb2/SolarEnergy/tree/902995de500ebe1e7fd04a581d0ba3740f46a0d7">Kylierb2/SolarEnergy@902995d</a>
+from <a href="https://github.com/Kylierb2/SolarEnergy/tree/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5">Kylierb2/SolarEnergy@7fa21f2</a>
 on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -163,6 +163,36 @@ Upon analysis of the correlation coefficients between each column in the dataset
 <img src="content/images/neural_network_results.png" alt="" /><figcaption><span>Figure 6:</span> We can visually exmine the fit between our <strong>random forest</strong> prediction and the raw data over our entire training dataseet</figcaption>
 </figure>
 </div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Model Type</th>
+<th style="text-align: center;">RMSE</th>
+<th style="text-align: center;">MAE</th>
+<th style="text-align: center;">R-squared</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Neural Network</td>
+<td style="text-align: center;">1486</td>
+<td style="text-align: center;">1557</td>
+<td style="text-align: center;">0.93</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Random Forest</td>
+<td style="text-align: center;">824</td>
+<td style="text-align: center;">634</td>
+<td style="text-align: center;">0.97</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Persistence Model</td>
+<td style="text-align: center;">184</td>
+<td style="text-align: center;">135</td>
+<td style="text-align: center;">0.99</td>
+</tr>
+</tbody>
+</table>
 <h1 id="conclusion">6. Conclusion</h1>
 <p>The ability to predict solar output will be very important in the future due to the growing use of alternative energy sources. This project aimed to find an accurate and reliable way to predict this output. The results proved that using a random forest regression model may be the best choice. While many groups seem to be utilizing neural networks it may be time for them to switch over to random tree regressions. The findings from this project were that random forest regression out performs neural networks in the realm of solar energy output predictions. Due to the complexity of random forest and the ability to avoid overfitting, this model seems to be promising.</p>
 <p>Although the model was fairly accurate there are still some changes we would make for future research. First off, hourly weather prediction datasets would allow us to predict hourly solar radiation outputs. This would lead us to be able to balance the grid more accurately and result in optimal energy use. Current operators have to determine when to shut off solar energy and switch back to conventional energy sources. If they have a more accurate prediction of when solar generation will “run out” then one could optimize the energy used. Next, in order to improve our model we would like to use a cloud cover database and solar radiation estimates. The cloud database would improve our models because you can get a better idea of how much total radiation is actually being caught on the solar panels. If there is too much cloud coverage then one will observe less radiation and more radiation if there is less cloud coverage. Having actual numbers for solar radiation estimates would be effective in improving the model, however this task is very time consuming and difficult to produce. One would need to utilize large equations such as the Penman Monteith equation. Lastly, we would want to spend more time tuning the hyperparameters for the random tree regression model. This would involve setting up the code to view ranges of hyperparameters instead of just one singular variable. The goal of tuning hyperparameters is that we could get the parameter as close to the optimal one as possible, resulting in a more accurate model.</p>
