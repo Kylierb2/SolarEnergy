@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://Kylierb2.github.io/SolarEnergy/" />
   <meta name="citation_pdf_url" content="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/28576e7fc9f4d4b0c8daa6df9c71d03139469857/" />
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/28576e7fc9f4d4b0c8daa6df9c71d03139469857/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/28576e7fc9f4d4b0c8daa6df9c71d03139469857/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Kylierb2.github.io/SolarEnergy/v/28576e7fc9f4d4b0c8daa6df9c71d03139469857/">permalink</a>)
+(<a href="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Kylierb2/SolarEnergy/tree/28576e7fc9f4d4b0c8daa6df9c71d03139469857">Kylierb2/SolarEnergy@28576e7</a>
+from <a href="https://github.com/Kylierb2/SolarEnergy/tree/add4dfedb7ae8cf924a7e33aa0d4acd703b79498">Kylierb2/SolarEnergy@add4dfe</a>
 on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -194,17 +194,23 @@ regr = RandomForestRegressor(n_estimators = 5000,
 regr.fit(train_x, train_y)</code></pre>
 <p>The second model that was developed is the random forest regression model. This model is interesting because unlike a neural network it takes the datasets and creates multiple decision trees in order to find the best-fit prediction. Random forest models are less likely to overfit because of this. For this project, the same features will be used in order to compare the two models more accurately. These features are as follows: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). An interesting hyperparameter that was used is the “bootstrap” function. Bootstrapping is a way of resampling. This model implemented bootstrap = True which will use subsets of the data to form decision trees. If bootstrap = false was utilized then the entire dataset would have been used to form trees. Interestingly, better results were obtained using “True” over “False” which is seldom the case in literature reviews.</p>
 <h1 id="results">5. Results</h1>
+<p>In order to compare our models we developed two figures to observe. The first being a graph of our predicted results and the actual results. This graph displays the overlap of the data and how accurate our model was at predicting the correct values.</p>
+<p><em>insert line graphs here</em></p>
+<p>As you can see the random forest regression produced a more accurate graph. The more defined line in blue is the actual results and the orange more noisy line is the prediction the model produced. For the most part, the two lines follow the same path, which is a good sign. The prediction doesn’t do as well with the extreme values which are due to overfitting in the neural network. In the random tree regression the extreme values are a bit more accurate, but at the very tip are still off.
+The next graph type we looked at was the correlation betwene our actual data and the model’s predicted data.</p>
+<p><em>insert correlation graphs</em></p>
+<p>A truly correlated graph will be a tight exact line. Both of our models produced a linearly increasing line, which shows correlation. The graph for random forest is much more tight than the neural network, this is because our random forest regression is more accurate.
+Further inspection of the data allows us to compare the root means squared, mean absolute error, and the R-squared values for each model.</p>
 <div id="fig:neural_results" class="fignos">
 <figure>
-<img src="https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/neural_network_results.png" alt="" /><figcaption><span>Figure 5:</span> We can visually exmine the fit between our <strong>neural network</strong> prediction and the raw data over our entire training dataseet</figcaption>
+<img src="content/images/neural_network_results.png" alt="" /><figcaption><span>Figure 5:</span> We can visually exmine the fit between our <strong>neural network</strong> prediction and the raw data over our entire training dataseet</figcaption>
 </figure>
 </div>
 <div id="fig:forest_results" class="fignos">
 <figure>
-<img src="https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/random_forest_results.png" alt="" /><figcaption><span>Figure 6:</span> We can visually exmine the fit between our <strong>random forest</strong> prediction and the raw data over our entire training dataseet</figcaption>
+<img src="content/images/neural_network_results.png" alt="" /><figcaption><span>Figure 6:</span> We can visually exmine the fit between our <strong>random forest</strong> prediction and the raw data over our entire training dataseet</figcaption>
 </figure>
 </div>
-<p>In addition to comparing the results of our two models, we also use a persistence model to asses our models’ performance. A persistence model is commonly used as a means of comparison when developing machine learning algorithms. In essence a persistence model assumes that the next time step will be the same as the current. For our purposes we developed a model that predicted that “tomorrow’s” solar output will be equal to the solar energy measured “today”. The persistence model performed better than our algorithms in all the metrics we used.</p>
 <table>
 <thead>
 <tr class="header">
@@ -235,6 +241,7 @@ regr.fit(train_x, train_y)</code></pre>
 </tr>
 </tbody>
 </table>
+<p>As you can see in the table above the random forest regression out performs the neural network. It is noted that the mean absolute error and root mean squared error are both lower than the neural network results. This is the first indication that the model is out performing the neural network. The R-squared value is quite impressive at 0.97. This means that the predicted values of the model explain about 97% of the variance. A high r-squared value indicates that the model values fit the actual values very well, a result one hopes for when predicting future values. Obviously, the more correlated the actual values are to the predicted values the more accurate the model is. However, one cannot only rely on correlation graphs because as seen in the neural network the correlation was still high even though the r-squared was 0.93.</p>
 <h1 id="conclusion">6. Conclusion</h1>
 <p>The ability to predict solar output will be very important in the future due to the growing use of alternative energy sources. This project aimed to find an accurate and reliable way to predict this output. The results proved that using a random forest regression model may be the best choice. While many groups seem to be utilizing neural networks it may be time for them to switch over to random tree regressions. The findings from this project were that random forest regression out performs neural networks in the realm of solar energy output predictions. Due to the complexity of random forest and the ability to avoid overfitting, this model seems to be promising.</p>
 <p>Although the model was fairly accurate there are still some changes we would make for future research. First off, hourly weather prediction datasets would allow us to predict hourly solar radiation outputs. This would lead us to be able to balance the grid more accurately and result in optimal energy use. Current operators have to determine when to shut off solar energy and switch back to conventional energy sources. If they have a more accurate prediction of when solar generation will “run out” then one could optimize the energy used. Next, in order to improve our model we would like to use a cloud cover database and solar radiation estimates. The cloud database would improve our models because you can get a better idea of how much total radiation is actually being caught on the solar panels. If there is too much cloud coverage then one will observe less radiation and more radiation if there is less cloud coverage. Having actual numbers for solar radiation estimates would be effective in improving the model, however this task is very time consuming and difficult to produce. One would need to utilize large equations such as the Penman Monteith equation. Lastly, we would want to spend more time tuning the hyperparameters for the random tree regression model. This would involve setting up the code to view ranges of hyperparameters instead of just one singular variable. The goal of tuning hyperparameters is that we could get the parameter as close to the optimal one as possible, resulting in a more accurate model.</p>
