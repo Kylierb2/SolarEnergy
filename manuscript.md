@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/add4dfedb7ae8cf924a7e33aa0d4acd703b79498/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/70d4c6df828046cda50a1482cca1f3e8e012b199/))
 was automatically generated
-from [Kylierb2/SolarEnergy@add4dfe](https://github.com/Kylierb2/SolarEnergy/tree/add4dfedb7ae8cf924a7e33aa0d4acd703b79498)
+from [Kylierb2/SolarEnergy@70d4c6d](https://github.com/Kylierb2/SolarEnergy/tree/70d4c6df828046cda50a1482cca1f3e8e012b199)
 on December 7, 2020.
 </em></small>
 
@@ -163,15 +163,15 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_solar.png){#fig:solar_img}
+![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png)
 
 **3.1.2 Daily Weather Observations**
 
-![We utilized daily wether observations from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/raw_weather.png){#fig:solar_img}
+![We utilized daily wether observations from the Illinois State Water Survey.](images/raw_weather.png)
 
 **3.1.3 Monthly Solar Radiation**
 
-![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/radiation.png){#fig:solar_img}
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png)
 
 ## 3.2 Exploratory Analysis
 
@@ -198,7 +198,7 @@ Insert histograms here
 From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.
 
-![Seasonal patterns are clear in our key weather features.](https://github.com/Kylierb2/SolarEnergy/blob/master/content/images/features_timeseries.png){#fig:solar_img}
+![Seasonal patterns are clear in our key weather features.](images/features_timeseries.png)
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
