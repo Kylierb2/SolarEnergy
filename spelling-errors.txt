@@ -4,8 +4,8 @@ Allisa
 AllisaG
 aways
 biase
-burkett
-champaign
+Burkett
+Champaign
 CSV
 dataset
 datasets
@@ -25,6 +25,7 @@ overfit
 overfitting
 precip
 publically
+radition
 relu
 resample
 resampling

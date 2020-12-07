@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/))
 was automatically generated
-from [Kylierb2/SolarEnergy@a61b858](https://github.com/Kylierb2/SolarEnergy/tree/a61b8584853acf4df266ad66624a1b93f3f30a17)
+from [Kylierb2/SolarEnergy@6f95457](https://github.com/Kylierb2/SolarEnergy/tree/6f95457d85db3225d51833053ce8cf89eeb554b2)
 on December 7, 2020.
 </em></small>
 
@@ -135,7 +135,7 @@ on December 7, 2020.
 
 # Abstract {.page_break_before}
 
-
+The world around us is ever-changing and in order to keep our planet clean and habitable researchers are always trying to find new ways of producing renewable energy. Renewable energy is a key part of reducing emissions and impacting the environment positively. Solar generation is a type of renewable energy that this project will explore. More specifically, how do we predict how much solar energy we have available? In order to do this our project will explore the different datasets available that pertain to solar energy. We will explore the effects these features have on solar energy and if we can predict them. To predict the energy output of solar panels we will use machine learning techniques such as artificial neural networks and random tree regression models. The solar farm we will be observing is on the campus of the University of Illinois at Urbana-Champaign. Utilizing the machine learning techniques we learned in class we find that random tree regression models perform the best when it comes to predicting solar energy outputs. Our models were compared using a persistence model along with correlation and R-squared models. Further research on the topic will lead to more accurate results and enhance the ability of energy plants to increase energy efficiency.
 
 
 # 1. Introduction {.page_break_before}
@@ -163,15 +163,23 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png){width="5.5in"}
+![Figure 1: Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](images/raw_solar.png){width="5.5in"}
+
+Solar data will be important to test our model with, these are actual values from the UIUC dashboard.
+
 
 **3.1.2 Daily Weather Observations**
 
-![We utilized daily weather observations from the Illinois State Water Survey.](images/raw_weather.png)
+![Figure 2: We utilized daily weather observations from the Illinois State Water Survey.](images/raw_weather.png)
+
+Daily weather data will allow us to utilize other features such as temperature, dew point, and humidity.
+
 
 **3.1.3 Monthly Solar Radiation**
 
-![We disaggregated average monthly solar radiation values from the Illinois State Water Survey into estimated daily solar radiation.](images/radiation.png){width="2in"}
+![Figure 3: We disaggregated average monthly solar radiation values from the Illinois State Water Survey into estimated daily solar radiation.](images/radiation.png){width="2in"}
+
+Monthly solar radition will allow us to look at the estimation of solar radiation for Champaign.
 
 ## 3.2 Exploratory Analysis
 
@@ -193,16 +201,16 @@ These measurements are all taken from historic weather observations, but when pr
 
 From the basic statistics of the dataset, it was observed that there are large standard deviations for most columns. This is most likely due to the seasonal variation. 
 
-![Each feature has unique distributions with few clear trends.](images/histograms.png){width="4in"}
+![Figure 4: Each feature has unique distributions with few clear trends.](images/histograms.png){width="4in"}
 
 From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.
 
-![Seasonal patterns are clear in our key weather features.](images/features_timeseries.png)
+![Figure 5: Seasonal patterns are clear in our key weather features.](images/features_timeseries.png)
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
-![The relationships between our chosen dependent variables and solar generation are roughly linear.](images/corr_imgs.png)
+![Figure 6: The relationships between our chosen dependent variables and solar generation are roughly linear.](images/corr_imgs.png)
 
 The results of the linear regressions of these plots were quite interesting. It was observed that the average daily solar radiation in Champaign explains about 93% of the variation in solar output, maximum daily temperature explains 54%, minimum daily temperature explains 53%, average daily temperature explains 56%, and dew temperature explains 45%. Although these values are all around 50% the goal is to use all of them and increase the predictive value as a whole.
 

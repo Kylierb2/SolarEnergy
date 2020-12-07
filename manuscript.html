@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://Kylierb2.github.io/SolarEnergy/" />
   <meta name="citation_pdf_url" content="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/" />
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Kylierb2.github.io/SolarEnergy/v/a61b8584853acf4df266ad66624a1b93f3f30a17/">permalink</a>)
+(<a href="https://Kylierb2.github.io/SolarEnergy/v/6f95457d85db3225d51833053ce8cf89eeb554b2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Kylierb2/SolarEnergy/tree/a61b8584853acf4df266ad66624a1b93f3f30a17">Kylierb2/SolarEnergy@a61b858</a>
+from <a href="https://github.com/Kylierb2/SolarEnergy/tree/6f95457d85db3225d51833053ce8cf89eeb554b2">Kylierb2/SolarEnergy@6f95457</a>
 on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -92,6 +92,7 @@ Department of Civil &amp; Environmental Engineering; University of Illinois at U
 </small></p></li>
 </ul>
 <h1 class="page_break_before" id="abstract">Abstract</h1>
+<p>The world around us is ever-changing and in order to keep our planet clean and habitable researchers are always trying to find new ways of producing renewable energy. Renewable energy is a key part of reducing emissions and impacting the environment positively. Solar generation is a type of renewable energy that this project will explore. More specifically, how do we predict how much solar energy we have available? In order to do this our project will explore the different datasets available that pertain to solar energy. We will explore the effects these features have on solar energy and if we can predict them. To predict the energy output of solar panels we will use machine learning techniques such as artificial neural networks and random tree regression models. The solar farm we will be observing is on the campus of the University of Illinois at Urbana-Champaign. Utilizing the machine learning techniques we learned in class we find that random tree regression models perform the best when it comes to predicting solar energy outputs. Our models were compared using a persistence model along with correlation and R-squared models. Further research on the topic will lead to more accurate results and enhance the ability of energy plants to increase energy efficiency.</p>
 <h1 class="page_break_before" id="introduction">1. Introduction</h1>
 <p>Solar generation is an up and coming alternative energy resource. On the campus of the University of Illinois at Urbana-Champaign researchers have created solar farms to try and reduce the University’s carbon dioxide emissions. Solar farm 1.0 is the first UIUC solar farm; it has been operational since December of 2015. It is 20.8 acres of land and produces around 7,200 megawatt-hours of electricity annually. Surprisingly, this is only about 2% of the total megawatt-hours the university requires annually. In order to produce more the university recently published its plans to start work on “Solar Farm 2.0”. Solar farm 2.0 will be around 54 acres and produce as much as 20 thousand megawatt-hours annually; approximately 6% of university demand annually. Solar generation is important to “balancing the grid” and the more one is able to predict this output the more efficient energy usage will be. Knowing when solar energy will “run out” is largely a part of being able to utilize the maximum amount of solar energy generation. The goal of this project is to use machine learning techniques learned in class and publicly available data in order to predict the daily energy output from the UIUC solar farms.</p>
 <h1 id="literature-review">2. Literature Review</h1>
@@ -105,16 +106,19 @@ Department of Civil &amp; Environmental Engineering; University of Illinois at U
 <h2 id="raw-data-collection">3.1 Raw Data Collection</h2>
 <p><strong>3.1.1 Solar Data</strong></p>
 <figure>
-<img src="images/raw_solar.png" style="width:5.5in" alt="" /><figcaption>Solar data were taken from the UIUC Solar Dashboard on a daily timestep.</figcaption>
+<img src="images/raw_solar.png" style="width:5.5in" alt="" /><figcaption>Figure 1: Solar data were taken from the UIUC Solar Dashboard on a daily timestep.</figcaption>
 </figure>
+<p>Solar data will be important to test our model with, these are actual values from the UIUC dashboard.</p>
 <p><strong>3.1.2 Daily Weather Observations</strong></p>
 <figure>
-<img src="images/raw_weather.png" alt="" /><figcaption>We utilized daily weather observations from the Illinois State Water Survey.</figcaption>
+<img src="images/raw_weather.png" alt="" /><figcaption>Figure 2: We utilized daily weather observations from the Illinois State Water Survey.</figcaption>
 </figure>
+<p>Daily weather data will allow us to utilize other features such as temperature, dew point, and humidity.</p>
 <p><strong>3.1.3 Monthly Solar Radiation</strong></p>
 <figure>
-<img src="images/radiation.png" style="width:2in" alt="" /><figcaption>We disaggregated average monthly solar radiation values from the Illinois State Water Survey into estimated daily solar radiation.</figcaption>
+<img src="images/radiation.png" style="width:2in" alt="" /><figcaption>Figure 3: We disaggregated average monthly solar radiation values from the Illinois State Water Survey into estimated daily solar radiation.</figcaption>
 </figure>
+<p>Monthly solar radition will allow us to look at the estimation of solar radiation for Champaign.</p>
 <h2 id="exploratory-analysis">3.2 Exploratory Analysis</h2>
 <p>This exploratory data analysis will compile weather and solar data into a single cohesive data frame and examine the data themselves to better understand the characteristics of the features and labels and better understand their relationship with each other. Towards these goals, we will use a variety of statistical methods and graphical and tabular representations to identify trends and relationships.</p>
 <p><strong>3.2.1 Clean and compile weather data</strong></p>
@@ -126,16 +130,16 @@ Department of Civil &amp; Environmental Engineering; University of Illinois at U
 <p><em>3.2.3.1 Observations</em></p>
 <p>From the basic statistics of the dataset, it was observed that there are large standard deviations for most columns. This is most likely due to the seasonal variation.</p>
 <figure>
-<img src="images/histograms.png" style="width:4in" alt="" /><figcaption>Each feature has unique distributions with few clear trends.</figcaption>
+<img src="images/histograms.png" style="width:4in" alt="" /><figcaption>Figure 4: Each feature has unique distributions with few clear trends.</figcaption>
 </figure>
 <p>From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.</p>
 <figure>
-<img src="images/features_timeseries.png" alt="" /><figcaption>Seasonal patterns are clear in our key weather features.</figcaption>
+<img src="images/features_timeseries.png" alt="" /><figcaption>Figure 5: Seasonal patterns are clear in our key weather features.</figcaption>
 </figure>
 <p>From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.</p>
 <figure>
-<img src="images/corr_imgs.png" alt="" /><figcaption>The relationships between our chosen dependent variables and solar generation are roughly linear.</figcaption>
+<img src="images/corr_imgs.png" alt="" /><figcaption>Figure 6: The relationships between our chosen dependent variables and solar generation are roughly linear.</figcaption>
 </figure>
 <p>The results of the linear regressions of these plots were quite interesting. It was observed that the average daily solar radiation in Champaign explains about 93% of the variation in solar output, maximum daily temperature explains 54%, minimum daily temperature explains 53%, average daily temperature explains 56%, and dew temperature explains 45%. Although these values are all around 50% the goal is to use all of them and increase the predictive value as a whole.</p>
 <p><strong>3.2.4 Key take-aways</strong></p>
