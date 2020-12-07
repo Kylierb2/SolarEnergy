@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,6 +96,11 @@ manubot-requests-cache-path: ci/cache/requests-cache
 title: 'Machine Learning: Solar Energy Output'
 ...
 
+# Abstract {.page_break_before}
+
+
+
+
 
 
 
@@ -103,9 +108,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/26c058039e64be059ef405e35bb40abf344009fa/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/35a8387f53852edcc4762993341aa4c294857d13/))
 was automatically generated
-from [Kylierb2/SolarEnergy@26c0580](https://github.com/Kylierb2/SolarEnergy/tree/26c058039e64be059ef405e35bb40abf344009fa)
+from [Kylierb2/SolarEnergy@35a8387](https://github.com/Kylierb2/SolarEnergy/tree/35a8387f53852edcc4762993341aa4c294857d13)
 on December 6, 2020.
 </em></small>
 
@@ -133,25 +138,15 @@ on December 6, 2020.
 
 
 
-# Abstract {.page_break_before}
-
-
-
-
 # 1. Introduction {.page_break_before}
 Solar generation is an up and coming alternative energy resource. On the campus of the University of Illinois at Urbana-Champaign researchers have created solar farms to try and reduce the University’s carbon dioxide emissions. Solar farm 1.0 is the first UIUC solar farm; it has been operational since December of 2015. It is 20.8 acres of land and produces around 7,200 megawatt-hours of electricity annually. Surprisingly, this is only about 2% of the total megawatt-hours the university requires annually. In order to produce more the university recently published its plans to start work on “Solar Farm 2.0”. Solar farm 2.0 will be around 54 acres and produce as much as 20 thousand megawatt-hours annually; approximately 6% of university demand annually. Solar generation is important to “balancing the grid” and the more one is able to predict this output the more efficient energy usage will be. Knowing when solar energy will “run out” is largely a part of being able to utilize the maximum amount of solar energy generation. The goal of this project is to use machine learning techniques learned in class and publicly available data in order to predict the daily energy output from the UIUC solar farms.
 
 
 # 2. Literature Review 
-
 In order to better understand the current research on predicting solar generation, a literature review was conducted. Our goal in performing this review is to gain a more comprehensive understanding of modern techniques in machine learning particularly as it pertains to our application. We chose to exmine two papers, the first is a review paper that covers this field of study in general, the second examines work done by a specific team to predict solar output from publically available weather forecasts.
-
 ## 2.1 Machine learning methods for solar radiation forecasting: A Review - Cyril Voyant Et Al.
-
 The journal paper explores other journals that have conducted research on predicting solar generation. This mass review found that most people who are doing research on solar generation are using artificial neural networks in order to predict outputs. This method is effective, however, the authors found that regression tree methods are actually performing with better results. Using his information the model for this project will use both neural networks and regression trees to see how they perform against each other. 
-
 ## 2.2 Predicting Solar Generation from Weather Forecasts Using Machine Learning - Sharma, N.; Sharma, P.; Irwin, D.; and Shenoy, P
-
 The next journal was a case study from a research group using national weather forecast data.  The biggest issue they found was uncontrollable variability in weather patterns. This is expected in this type of research because the weather is a natural phenomenon that one can only predict toa certain extent. This group exclusively used support vector machines to resample the datasets. Support vector machines take in a large amount of data and then resample them into different smaller datasets in order to easily compare and analyze them. The most interesting aspect of this research was the use of datasets although they did not correlate well with test data.  This is something that the group will keep in mind when making their own models.
 
 
@@ -163,7 +158,7 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.1 Solar Data**
 
-![Solar data were taken from the UIUC Solar Dashboard on a daily timestep.](content/images/raw_solar.png){#fig:solar_img}
+insert image here
 
 **3.1.2 Daily Weather Observations**
 
@@ -213,27 +208,8 @@ The Illinois State Water Survey's estimate of daily solar output in Champaign is
 
 # 4. Model Development
 
-In order to predict daily solar output, two different models will be used: neural network and random forest regression. In order to assess the accuracy of the model, a persistence model will be used for comparison. The means squared error, R-squared, and correlation will determine which model performs best.
-
-
-## 4.1 Neural Network
-
-Add picture of code here
-
-This neural network will utilize five features from the training dataset: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). The hidden layers of this network are made up of 256 nodes each and both use the Rectified Linear Unit activation (relu). This is a common activation function in neural networks because it avoids the vanishing gradient problem that may occur with other activations. We also include a dropout layer to avoid overfitting the training data. This dropout layer randomly sets node weights to 0 at a rate of 0.2 for each step in the learning process.
-
-## Random Forest Regression
-
-INSERT CODE HERE
-
-The second model that was developed is the random forest regression model. This model is interesting because unlike a neural network it takes the datasets and creates multiple decision trees in order to find the best-fit prediction. Random forest models are less likely to overfit because of this. For this project, the same features will be used in order to compare the two models more accurately. These features are as follows: radiation estimation (rad_est), average temperature (avg_temp), dew point (dew), minimum temperature (min_temp), and maximum temperature (max_temp). An interesting hyperparameter that was used is the “bootstrap” function. Bootstrapping is a way of resampling. This model implemented bootstrap = True which will use subsets of the data to form decision trees. If bootstrap = false was utilized then the entire dataset would have been used to form trees. Interestingly, better results were obtained using “True” over “False” which is seldom the case in literature reviews.
-
 
 # 5. Results 
-
-![We can visually exmine the fit between our **neural network** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:neural_results}
-
-![We can visually exmine the fit between our **random forest** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:forest_results}
 
 
 ## Conclusion
