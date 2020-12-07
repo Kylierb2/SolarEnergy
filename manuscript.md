@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/40a9358085529205726be77170b8d001c701560b/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/f5e8cd1c400155d4309a48ac6f634d40594bc27e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/40a9358085529205726be77170b8d001c701560b/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/f5e8cd1c400155d4309a48ac6f634d40594bc27e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/40a9358085529205726be77170b8d001c701560b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/f5e8cd1c400155d4309a48ac6f634d40594bc27e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/40a9358085529205726be77170b8d001c701560b/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/f5e8cd1c400155d4309a48ac6f634d40594bc27e/))
 was automatically generated
-from [Kylierb2/SolarEnergy@40a9358](https://github.com/Kylierb2/SolarEnergy/tree/40a9358085529205726be77170b8d001c701560b)
+from [Kylierb2/SolarEnergy@f5e8cd1](https://github.com/Kylierb2/SolarEnergy/tree/f5e8cd1c400155d4309a48ac6f634d40594bc27e)
 on December 7, 2020.
 </em></small>
 
@@ -202,7 +202,7 @@ Upon analysis of the correlation coefficients between each column in the dataset
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
-![The relationship between our chosen dependent variables and solar generation is not strong, but still roughly linear.](corr_imgs/radiation.png)
+![The relationships between our chosen dependent variables and solar generation are roughly linear.](image/corr_imgs.png)
 
 The results of the linear regressions of these plots were quite interesting. It was observed that the average daily solar radiation in Champaign explains about 93% of the variation in solar output, maximum daily temperature explains 54%, minimum daily temperature explains 53%, average daily temperature explains 56%, and dew temperature explains 45%. Although these values are all around 50% the goal is to use all of them and increase the predictive value as a whole.
 
