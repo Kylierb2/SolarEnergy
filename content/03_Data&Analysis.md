@@ -10,11 +10,11 @@ This section will discuss the different types of data the group collected, clean
 
 **3.1.2 Daily Weather Observations**
 
-![We utilized daily wether observations from the Illinois State Water Survey.](images/raw_weather.png)
+![We utilized daily weather observations from the Illinois State Water Survey.](images/raw_weather.png)
 
 **3.1.3 Monthly Solar Radiation**
 
-![We disaggregated average monthly solar radiation values from the Illinois State Water Survey.](images/radiation.png){width="2in"}
+![We disaggregated average monthly solar radiation values from the Illinois State Water Survey into estimated daily solar radiation.](images/radiation.png){width="2in"}
 
 ## 3.2 Exploratory Analysis
 
@@ -36,7 +36,7 @@ These measurements are all taken from historic weather observations, but when pr
 
 From the basic statistics of the dataset, it was observed that there are large standard deviations for most columns. This is most likely due to the seasonal variation. 
 
-Insert histograms here
+![Each feature has unique distributions with few clear trends.](images/histograms.png){width="4in"}
 
 From the observed histograms, one will notice the variance in distribution type. The most normally distributed histograms are wind direction (dir_wind) and minimum humidity (min_hum). The more logarithmic distributions are average wind (avg_wind), maximum humidity (max_hum), and total precipitation (tot_precip). One will also notice that certain distributions such as the soil temperature measurements favor extremes in their histograms.
 Upon analysis of the correlation coefficients between each column in the dataset, it was observed that solar radiation is strongly correlated. This was expected, however, this cannot be predicted ahead of time. Additionally, there was a strong correlation between temperatures and the dew point, both commonly used to predict weather forecasts. Below in figure one will see the time series graphs for the most correlated variables.
@@ -45,7 +45,7 @@ Upon analysis of the correlation coefficients between each column in the dataset
 
 From the time-series graphs, one can observe the seasonal variability in the graphs. The seasonal trends are apparent, yet not perfect. There is still quite a bit of noise in these observations. The next thing to look at will be the scatter plots of the 4 most correlated features with solar output. Once this is completed a regression analysis will be run to see how each feature affects the variation in solar output.
 
-insert correlation graphs here
+![The relationship between our chosen dependent variables and solar generation is not strong, but still roughly linear.](corr_imgs/radiation.png)
 
 The results of the linear regressions of these plots were quite interesting. It was observed that the average daily solar radiation in Champaign explains about 93% of the variation in solar output, maximum daily temperature explains 54%, minimum daily temperature explains 53%, average daily temperature explains 56%, and dew temperature explains 45%. Although these values are all around 50% the goal is to use all of them and increase the predictive value as a whole.
 
