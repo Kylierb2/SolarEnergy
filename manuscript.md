@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Kylierb2.github.io/SolarEnergy/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
+  <link rel="alternate" type="text/html" href="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/" />
+  <meta name="manubot_html_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: 'Machine Learning: Solar Energy Output'
 
 <small><em>
 This manuscript
-([permalink](https://Kylierb2.github.io/SolarEnergy/v/902995de500ebe1e7fd04a581d0ba3740f46a0d7/))
+([permalink](https://Kylierb2.github.io/SolarEnergy/v/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5/))
 was automatically generated
-from [Kylierb2/SolarEnergy@902995d](https://github.com/Kylierb2/SolarEnergy/tree/902995de500ebe1e7fd04a581d0ba3740f46a0d7)
+from [Kylierb2/SolarEnergy@7fa21f2](https://github.com/Kylierb2/SolarEnergy/tree/7fa21f2f1c5d0ec5ded9403ae93f4660b868ecd5)
 on December 7, 2020.
 </em></small>
 
@@ -234,6 +234,13 @@ The second model that was developed is the random forest regression model. This 
 ![We can visually exmine the fit between our **neural network** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:neural_results}
 
 ![We can visually exmine the fit between our **random forest** prediction and the raw data over our entire training dataseet](content/images/neural_network_results.png){#fig:forest_results}
+
+
+| Model Type | RMSE | MAE | R-squared |
+| :---: | :---: | :---: | :---: |
+| Neural Network | 1486 | 1557 | 0.93 |
+| Random Forest | 824 | 634 | 0.97 |
+| Persistence Model | 184 | 135 | 0.99|
 
 
 # 6. Conclusion

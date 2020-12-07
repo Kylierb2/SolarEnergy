@@ -3,8 +3,8 @@ ahastie
 Allisa
 AllisaG
 aways
-Burkett
-Champaign
+burkett
+champaign
 CSV
 dataseet
 dataset
@@ -17,7 +17,7 @@ Hastie
 hyperparameter
 hyperparameters
 kaggle
-Kylie
+kylie
 Kylierb
 Monteith
 overfit
@@ -27,6 +27,7 @@ publically
 relu
 resample
 resampling
+RMSE
 Sharma
 Shenoy
 soalr
