@@ -4,8 +4,8 @@ Allisa
 AllisaG
 aways
 biase
-Burkett
-Champaign
+burkett
+champaign
 CSV
 dataset
 datasets
@@ -18,7 +18,7 @@ Hastie
 hyperparameter
 hyperparameters
 kaggle
-Kylie
+kylie
 Kylierb
 Monteith
 overfit
